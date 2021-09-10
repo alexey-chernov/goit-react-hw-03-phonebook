@@ -1,0 +1,22 @@
+.Label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 95%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Input:focus {
+    outline-color: rgba(179, 32, 32, 0.486);
+}
